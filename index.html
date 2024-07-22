@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Configuration Table</title>
+  </head>
+  <body>
+    <header>
+      <input
+        type="text"
+        id="search"
+        class="search"
+        placeholder="Search by key or descripton"
+      />
+      <div class="show-selected">
+        <input type="checkbox" name="show-selected" id="show-selected" />
+        <label for="show-selected"> Show Selected </label>
+      </div>
+    </header>
+
+    <main>
+      <table id="config-table"></table>
+      <button id="done-btn">Done</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
